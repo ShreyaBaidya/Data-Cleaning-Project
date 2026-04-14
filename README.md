@@ -17,4 +17,4 @@
 
 *Next Step* : 
 This cleaned dataset is used in my EDA project:  
-👉 [Exploratory Data Analysis Project](https://github.com/ShreyaBaidya/Exploratory-Data-Analysis-Project)
+--> [Exploratory Data Analysis Project](https://github.com/ShreyaBaidya/Exploratory-Data-Analysis-Project)
