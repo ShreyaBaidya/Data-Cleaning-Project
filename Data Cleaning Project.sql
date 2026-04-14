@@ -126,6 +126,10 @@ FROM world_layoffs.layoffs_staging2;
 ALTER TABLE world_layoffs.layoffs_staging2
 MODIFY COLUMN `date` DATE;
 
+
+
+-- 3. Null values or Blank values
+
 SELECT *
 FROM world_layoffs.layoffs_staging2
 WHERE industry IS NULL 
@@ -173,6 +177,9 @@ SELECT *
 FROM world_layoffs.layoffs_staging2
 WHERE total_laid_off IS NULL
 AND percentage_laid_off IS NULL;
+
+
+-- 4. Remove any Columns and Rows that are not neccessary 
 
 -- Delete Useless data we can't really use
 DELETE FROM world_layoffs.layoffs_staging2
